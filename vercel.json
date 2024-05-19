@@ -2,7 +2,7 @@
     "version": 2,
     "builds":[
         {
-            "src": "./shorten.js",
+            "src": "/shorten.js",
             "use": "@vercel/node"
         }
     ],

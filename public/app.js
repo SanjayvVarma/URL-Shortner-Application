@@ -11,7 +11,7 @@ urlForm.addEventListener('submit', async (e) => {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ originalUrl })
+        body:({ originalUrl })
     });
     
     const data = await response.json();

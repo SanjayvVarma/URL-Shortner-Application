@@ -1,0 +1,22 @@
+{
+  "name": "url ahortner application",
+  "version": "1.0.0",
+  "description": "use of fs and path module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apis",
+    "webservices"
+  ],
+  "author": "Sanjay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "shortid": "^2.2.16"
+  }
+}

@@ -93,7 +93,7 @@ app.get('/', (req, res) => {
 app.post('/shorten', async (req, res) => {
     const { originalUrl } = req.body;
     const shortCode = shortid.generate();
-    const shortUrl = `http://${req.get('host')}/${shortCode}`;
+    const shortUrl = `http://${req.headers.host}/${shortCode}`
     
     const newUrl = new Url({ originalUrl, shortUrl });
     await newUrl.save();

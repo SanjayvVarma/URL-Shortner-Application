@@ -4,7 +4,7 @@
   "description": "use of fs and path module",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon api/shorten.js",
+    "start": "nodemon shorten.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

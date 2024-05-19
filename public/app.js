@@ -6,7 +6,7 @@ urlForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const originalUrl = originalUrlInput.value;
-    const response = await fetch('shorten', {
+    const response = await fetch('/shorten', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

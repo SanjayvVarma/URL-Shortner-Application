@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect('mongodb://url-shortner-application-a3tq.vercel.app//url-shortener', {
+mongoose.connect('mongodb://localhost/url-shortener', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
